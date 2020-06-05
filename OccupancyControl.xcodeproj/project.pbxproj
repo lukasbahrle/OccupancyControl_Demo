@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA46122924860A9F00345F20 /* OccupancyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA46122824860A9F00345F20 /* OccupancyData.swift */; };
+		DA564BD52482D03900EF2DDD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BD42482D03900EF2DDD /* HomeViewModel.swift */; };
+		DA564BD72482D3E600EF2DDD /* HistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BD62482D3E600EF2DDD /* HistoryData.swift */; };
+		DA564BDA2482FCA600EF2DDD /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BD92482FCA600EF2DDD /* HomeUseCase.swift */; };
+		DA564BDD2482FDAD00EF2DDD /* OccupancyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BDC2482FDAD00EF2DDD /* OccupancyService.swift */; };
+		DA564BDF24843E1B00EF2DDD /* ServicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BDE24843E1B00EF2DDD /* ServicesProvider.swift */; };
+		DA564BE224843E8F00EF2DDD /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BE124843E8F00EF2DDD /* AppFactory.swift */; };
+		DA564BE52484403C00EF2DDD /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BE42484403C00EF2DDD /* AppFlowCoordinator.swift */; };
+		DA564BE72484414000EF2DDD /* AppFlowCoordinatorDependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA564BE62484414000EF2DDD /* AppFlowCoordinatorDependencyProvider.swift */; };
+		DA5F1FDE248551FC009A23D0 /* OccupancyServiceSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F1FDD248551FC009A23D0 /* OccupancyServiceSimulator.swift */; };
 		DA86C064247F7FB90046996F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C063247F7FB90046996F /* AppDelegate.swift */; };
 		DA86C066247F7FB90046996F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C065247F7FB90046996F /* SceneDelegate.swift */; };
-		DA86C068247F7FB90046996F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C067247F7FB90046996F /* ContentView.swift */; };
+		DA86C068247F7FB90046996F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C067247F7FB90046996F /* HomeView.swift */; };
 		DA86C06A247F7FBB0046996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA86C069247F7FBB0046996F /* Assets.xcassets */; };
 		DA86C06D247F7FBB0046996F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA86C06C247F7FBB0046996F /* Preview Assets.xcassets */; };
 		DA86C070247F7FBB0046996F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA86C06E247F7FBB0046996F /* LaunchScreen.storyboard */; };
-		DA86C07B247F7FBB0046996F /* OccupancyControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C07A247F7FBB0046996F /* OccupancyControlTests.swift */; };
-		DA86C086247F7FBB0046996F /* OccupancyControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C085247F7FBB0046996F /* OccupancyControlUITests.swift */; };
+		DA86C098247F80DF0046996F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C097247F80DF0046996F /* HistoryView.swift */; };
+		DA86C09A247F810F0046996F /* CurrentCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C099247F810F0046996F /* CurrentCountView.swift */; };
+		DA86C09D247F81A40046996F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C09C247F81A40046996F /* Theme.swift */; };
+		DA86C09F247F81BF0046996F /* Theme+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C09E247F81BF0046996F /* Theme+Defaults.swift */; };
+		DA86C0A1247F82170046996F /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C0A0247F82170046996F /* GraphView.swift */; };
+		DA86C0A5247F830A0046996F /* SwiftUI+DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C0A4247F830A0046996F /* SwiftUI+DarkMode.swift */; };
+		DA86C0A8247F836B0046996F /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C0A7247F836B0046996F /* HistoryItem.swift */; };
+		DA86C0AA247F84130046996F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86C0A9247F84130046996F /* TitleView.swift */; };
+		DAA557B3248A0DD3001DEBF7 /* HistoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA557B2248A0DD3001DEBF7 /* HistoryItemViewModel.swift */; };
+		DAF0A4722489511E00736D8D /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0A4712489511E00736D8D /* HomeViewModelTests.swift */; };
+		DAF0A4772489539A00736D8D /* OccupancyData+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0A4762489539A00736D8D /* OccupancyData+Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +44,40 @@
 			remoteGlobalIDString = DA86C05F247F7FB90046996F;
 			remoteInfo = OccupancyControl;
 		};
-		DA86C082247F7FBB0046996F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA86C058247F7FB90046996F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA86C05F247F7FB90046996F;
-			remoteInfo = OccupancyControl;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA86C060247F7FB90046996F /* OccupancyControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OccupancyControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA46122824860A9F00345F20 /* OccupancyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupancyData.swift; sourceTree = "<group>"; };
+		DA564BD42482D03900EF2DDD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DA564BD62482D3E600EF2DDD /* HistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryData.swift; sourceTree = "<group>"; };
+		DA564BD92482FCA600EF2DDD /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		DA564BDC2482FDAD00EF2DDD /* OccupancyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupancyService.swift; sourceTree = "<group>"; };
+		DA564BDE24843E1B00EF2DDD /* ServicesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProvider.swift; sourceTree = "<group>"; };
+		DA564BE124843E8F00EF2DDD /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		DA564BE42484403C00EF2DDD /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		DA564BE62484414000EF2DDD /* AppFlowCoordinatorDependencyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinatorDependencyProvider.swift; sourceTree = "<group>"; };
+		DA5F1FDD248551FC009A23D0 /* OccupancyServiceSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupancyServiceSimulator.swift; sourceTree = "<group>"; };
+		DA86C060247F7FB90046996F /* Occupancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Occupancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA86C063247F7FB90046996F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA86C065247F7FB90046996F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA86C067247F7FB90046996F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA86C067247F7FB90046996F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DA86C069247F7FBB0046996F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA86C06C247F7FBB0046996F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA86C06F247F7FBB0046996F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA86C071247F7FBB0046996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA86C076247F7FBB0046996F /* OccupancyControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OccupancyControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA86C07A247F7FBB0046996F /* OccupancyControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupancyControlTests.swift; sourceTree = "<group>"; };
 		DA86C07C247F7FBB0046996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA86C081247F7FBB0046996F /* OccupancyControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OccupancyControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA86C085247F7FBB0046996F /* OccupancyControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupancyControlUITests.swift; sourceTree = "<group>"; };
-		DA86C087247F7FBB0046996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA86C097247F80DF0046996F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DA86C099247F810F0046996F /* CurrentCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCountView.swift; sourceTree = "<group>"; };
+		DA86C09C247F81A40046996F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DA86C09E247F81BF0046996F /* Theme+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme+Defaults.swift"; sourceTree = "<group>"; };
+		DA86C0A0247F82170046996F /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		DA86C0A4247F830A0046996F /* SwiftUI+DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+DarkMode.swift"; sourceTree = "<group>"; };
+		DA86C0A7247F836B0046996F /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		DA86C0A9247F84130046996F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DAA557B2248A0DD3001DEBF7 /* HistoryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemViewModel.swift; sourceTree = "<group>"; };
+		DAF0A4712489511E00736D8D /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		DAF0A4762489539A00736D8D /* OccupancyData+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OccupancyData+Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +95,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA86C07E247F7FBB0046996F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA51ADF6248A136600AB0C79 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C069247F7FBB0046996F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DA51ADF7248A13BA00AB0C79 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA564BE32484400D00EF2DDD /* Coordinators */,
+				DA564BE024843E7D00EF2DDD /* Factory */,
+				DA564BDB2482FD9D00EF2DDD /* Services */,
+				DA564BD82482FC7800EF2DDD /* Use Cases */,
+				DA86C0A6247F83430046996F /* Models */,
+				DA86C0A2247F82C70046996F /* Utils */,
+				DA86C09B247F81740046996F /* Theming */,
+				DA86C093247F7FD00046996F /* UI */,
+				DA86C063247F7FB90046996F /* AppDelegate.swift */,
+				DA86C065247F7FB90046996F /* SceneDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DA564BD82482FC7800EF2DDD /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				DA564BD92482FCA600EF2DDD /* HomeUseCase.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		DA564BDB2482FD9D00EF2DDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F1FDF24855203009A23D0 /* Simulation */,
+				DA564BDC2482FDAD00EF2DDD /* OccupancyService.swift */,
+				DA564BDE24843E1B00EF2DDD /* ServicesProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DA564BE024843E7D00EF2DDD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				DA564BE124843E8F00EF2DDD /* AppFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		DA564BE32484400D00EF2DDD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				DA564BE42484403C00EF2DDD /* AppFlowCoordinator.swift */,
+				DA564BE62484414000EF2DDD /* AppFlowCoordinatorDependencyProvider.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		DA5F1FDF24855203009A23D0 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F1FDD248551FC009A23D0 /* OccupancyServiceSimulator.swift */,
+				DAF0A4762489539A00736D8D /* OccupancyData+Stub.swift */,
+			);
+			path = Simulation;
+			sourceTree = "<group>";
+		};
 		DA86C057247F7FB90046996F = {
 			isa = PBXGroup;
 			children = (
 				DA86C062247F7FB90046996F /* OccupancyControl */,
 				DA86C079247F7FBB0046996F /* OccupancyControlTests */,
-				DA86C084247F7FBB0046996F /* OccupancyControlUITests */,
 				DA86C061247F7FB90046996F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,9 +179,8 @@
 		DA86C061247F7FB90046996F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA86C060247F7FB90046996F /* OccupancyControl.app */,
+				DA86C060247F7FB90046996F /* Occupancy.app */,
 				DA86C076247F7FBB0046996F /* OccupancyControlTests.xctest */,
-				DA86C081247F7FBB0046996F /* OccupancyControlUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +188,8 @@
 		DA86C062247F7FB90046996F /* OccupancyControl */ = {
 			isa = PBXGroup;
 			children = (
-				DA86C063247F7FB90046996F /* AppDelegate.swift */,
-				DA86C065247F7FB90046996F /* SceneDelegate.swift */,
-				DA86C067247F7FB90046996F /* ContentView.swift */,
-				DA86C069247F7FBB0046996F /* Assets.xcassets */,
-				DA86C06E247F7FBB0046996F /* LaunchScreen.storyboard */,
+				DA51ADF6248A136600AB0C79 /* Assets */,
+				DA51ADF7248A13BA00AB0C79 /* Source */,
 				DA86C071247F7FBB0046996F /* Info.plist */,
 				DA86C06B247F7FBB0046996F /* Preview Content */,
 			);
@@ -121,19 +207,84 @@
 		DA86C079247F7FBB0046996F /* OccupancyControlTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA86C07A247F7FBB0046996F /* OccupancyControlTests.swift */,
 				DA86C07C247F7FBB0046996F /* Info.plist */,
+				DAF0A4712489511E00736D8D /* HomeViewModelTests.swift */,
 			);
 			path = OccupancyControlTests;
 			sourceTree = "<group>";
 		};
-		DA86C084247F7FBB0046996F /* OccupancyControlUITests */ = {
+		DA86C093247F7FD00046996F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				DA86C085247F7FBB0046996F /* OccupancyControlUITests.swift */,
-				DA86C087247F7FBB0046996F /* Info.plist */,
+				DA86C095247F805F0046996F /* Home */,
+				DA86C06E247F7FBB0046996F /* LaunchScreen.storyboard */,
 			);
-			path = OccupancyControlUITests;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DA86C095247F805F0046996F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C096247F80720046996F /* Components */,
+				DA86C067247F7FB90046996F /* HomeView.swift */,
+				DA564BD42482D03900EF2DDD /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA86C096247F80720046996F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DAA557B1248A0DC8001DEBF7 /* History */,
+				DA86C0A9247F84130046996F /* TitleView.swift */,
+				DA86C099247F810F0046996F /* CurrentCountView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DA86C09B247F81740046996F /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C09C247F81A40046996F /* Theme.swift */,
+				DA86C09E247F81BF0046996F /* Theme+Defaults.swift */,
+			);
+			path = Theming;
+			sourceTree = "<group>";
+		};
+		DA86C0A2247F82C70046996F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C0A3247F82EB0046996F /* SwiftUI */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA86C0A3247F82EB0046996F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C0A4247F830A0046996F /* SwiftUI+DarkMode.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DA86C0A6247F83430046996F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C0A7247F836B0046996F /* HistoryItem.swift */,
+				DA564BD62482D3E600EF2DDD /* HistoryData.swift */,
+				DA46122824860A9F00345F20 /* OccupancyData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAA557B1248A0DC8001DEBF7 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				DA86C0A0247F82170046996F /* GraphView.swift */,
+				DAA557B2248A0DD3001DEBF7 /* HistoryItemViewModel.swift */,
+				DA86C097247F80DF0046996F /* HistoryView.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +304,7 @@
 			);
 			name = OccupancyControl;
 			productName = OccupancyControl;
-			productReference = DA86C060247F7FB90046996F /* OccupancyControl.app */;
+			productReference = DA86C060247F7FB90046996F /* Occupancy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DA86C075247F7FBB0046996F /* OccupancyControlTests */ = {
@@ -174,24 +325,6 @@
 			productReference = DA86C076247F7FBB0046996F /* OccupancyControlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA86C080247F7FBB0046996F /* OccupancyControlUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA86C090247F7FBB0046996F /* Build configuration list for PBXNativeTarget "OccupancyControlUITests" */;
-			buildPhases = (
-				DA86C07D247F7FBB0046996F /* Sources */,
-				DA86C07E247F7FBB0046996F /* Frameworks */,
-				DA86C07F247F7FBB0046996F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA86C083247F7FBB0046996F /* PBXTargetDependency */,
-			);
-			name = OccupancyControlUITests;
-			productName = OccupancyControlUITests;
-			productReference = DA86C081247F7FBB0046996F /* OccupancyControlUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,10 +339,6 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					DA86C075247F7FBB0046996F = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = DA86C05F247F7FB90046996F;
-					};
-					DA86C080247F7FBB0046996F = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = DA86C05F247F7FB90046996F;
 					};
@@ -230,7 +359,6 @@
 			targets = (
 				DA86C05F247F7FB90046996F /* OccupancyControl */,
 				DA86C075247F7FBB0046996F /* OccupancyControlTests */,
-				DA86C080247F7FBB0046996F /* OccupancyControlUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,13 +381,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA86C07F247F7FBB0046996F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,9 +388,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA564BDF24843E1B00EF2DDD /* ServicesProvider.swift in Sources */,
+				DA564BE72484414000EF2DDD /* AppFlowCoordinatorDependencyProvider.swift in Sources */,
 				DA86C064247F7FB90046996F /* AppDelegate.swift in Sources */,
+				DAF0A4772489539A00736D8D /* OccupancyData+Stub.swift in Sources */,
+				DA564BE224843E8F00EF2DDD /* AppFactory.swift in Sources */,
+				DA86C09F247F81BF0046996F /* Theme+Defaults.swift in Sources */,
+				DA86C098247F80DF0046996F /* HistoryView.swift in Sources */,
+				DA86C0A8247F836B0046996F /* HistoryItem.swift in Sources */,
+				DA564BE52484403C00EF2DDD /* AppFlowCoordinator.swift in Sources */,
 				DA86C066247F7FB90046996F /* SceneDelegate.swift in Sources */,
-				DA86C068247F7FB90046996F /* ContentView.swift in Sources */,
+				DA86C0A5247F830A0046996F /* SwiftUI+DarkMode.swift in Sources */,
+				DA86C09D247F81A40046996F /* Theme.swift in Sources */,
+				DA564BD52482D03900EF2DDD /* HomeViewModel.swift in Sources */,
+				DA5F1FDE248551FC009A23D0 /* OccupancyServiceSimulator.swift in Sources */,
+				DA564BDA2482FCA600EF2DDD /* HomeUseCase.swift in Sources */,
+				DA86C09A247F810F0046996F /* CurrentCountView.swift in Sources */,
+				DA86C0AA247F84130046996F /* TitleView.swift in Sources */,
+				DA46122924860A9F00345F20 /* OccupancyData.swift in Sources */,
+				DAA557B3248A0DD3001DEBF7 /* HistoryItemViewModel.swift in Sources */,
+				DA86C068247F7FB90046996F /* HomeView.swift in Sources */,
+				DA564BDD2482FDAD00EF2DDD /* OccupancyService.swift in Sources */,
+				DA564BD72482D3E600EF2DDD /* HistoryData.swift in Sources */,
+				DA86C0A1247F82170046996F /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,15 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA86C07B247F7FBB0046996F /* OccupancyControlTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA86C07D247F7FBB0046996F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA86C086247F7FBB0046996F /* OccupancyControlUITests.swift in Sources */,
+				DAF0A4722489511E00736D8D /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +429,6 @@
 			isa = PBXTargetDependency;
 			target = DA86C05F247F7FB90046996F /* OccupancyControl */;
 			targetProxy = DA86C077247F7FBB0046996F /* PBXContainerItemProxy */;
-		};
-		DA86C083247F7FBB0046996F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA86C05F247F7FB90046996F /* OccupancyControl */;
-			targetProxy = DA86C082247F7FBB0046996F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,7 +572,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbahrle.OccupancyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Occupancy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +592,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbahrle.OccupancyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Occupancy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -514,46 +642,6 @@
 			};
 			name = Release;
 		};
-		DA86C091247F7FBB0046996F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HKA5LU2QKN;
-				INFOPLIST_FILE = OccupancyControlUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbahrle.OccupancyControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OccupancyControl;
-			};
-			name = Debug;
-		};
-		DA86C092247F7FBB0046996F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HKA5LU2QKN;
-				INFOPLIST_FILE = OccupancyControlUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbahrle.OccupancyControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OccupancyControl;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,15 +668,6 @@
 			buildConfigurations = (
 				DA86C08E247F7FBB0046996F /* Debug */,
 				DA86C08F247F7FBB0046996F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA86C090247F7FBB0046996F /* Build configuration list for PBXNativeTarget "OccupancyControlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA86C091247F7FBB0046996F /* Debug */,
-				DA86C092247F7FBB0046996F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
