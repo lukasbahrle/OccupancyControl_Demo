@@ -16,8 +16,10 @@ class OccupancyServiceSimulator: OccupancyServiceType{
     
     private var initialData = OccupancyData.stub()
     
-    private var stopSimulationTime: Double = 10
+    // stops the simulation after `stopSimulationTime` seconds
+    private var stopSimulationTime: Double = 15
     private var isSimulationStopped = false
+    private var loopSimulation = true
     
     // load initial data and return data publisher
     func getOccupancyData() -> AnyPublisher<OccupancyData, Error> {
@@ -28,6 +30,10 @@ class OccupancyServiceSimulator: OccupancyServiceType{
     
     // simulate initial data loading
     private func loadData(){
+        //reset
+        isSimulationStopped = false
+        timeStamp = 0
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.dataSubject.send(self.initialData)
         }
@@ -46,7 +52,7 @@ class OccupancyServiceSimulator: OccupancyServiceType{
     
     // add some random values to the data and publish
     func updateData(){
-        guard !isSimulationStopped else {return}
+        guard !isSimulationStopped && !dataSubject.value.isEmpty() else {return}
         
         let maxValue = dataSubject.value.max
         let history = dataSubject.value.history
@@ -94,6 +100,12 @@ class OccupancyServiceSimulator: OccupancyServiceType{
     private func stopSimulation(){
         isSimulationStopped = true
         dataSubject.send(OccupancyData.emptyData())
+        
+        if loopSimulation{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.loadData()
+            }
+        }
     }
     
     
