@@ -3,4 +3,4 @@
 
 Demo app using SwiftUI. 
 
-<img src="https://lukasbahrle.com/occupancycontrol/occupancycontrol.gif" height="640">
+<img src="https://lukasbahrle.com/occupancycontrol/occupancycontrol.gif" height="640" width="360">
